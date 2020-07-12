@@ -137,7 +137,7 @@ void HAL_ADC_MspInit(ADC_HandleTypeDef *hadc) {
         GPIO_InitStruct.Pull = GPIO_NOPULL;
         HAL_GPIO_Init(THERM_0_GPIO_Port, &GPIO_InitStruct);
 
-        GPIO_InitStruct.Pin = HW_IDENTIFY_Pin | THERM_1_Pin | THERM_2_Pin | THERM_PINDA_Pin;
+        GPIO_InitStruct.Pin = HW_IDENTIFY_Pin | THERM_1_Pin | THERM_2_Pin | THERM_PROBE_Pin;
         GPIO_InitStruct.Mode = GPIO_MODE_ANALOG;
         GPIO_InitStruct.Pull = GPIO_NOPULL;
         HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
@@ -173,7 +173,7 @@ void HAL_ADC_MspDeInit(ADC_HandleTypeDef *hadc) {
     */
         HAL_GPIO_DeInit(THERM_0_GPIO_Port, THERM_0_Pin);
 
-        HAL_GPIO_DeInit(GPIOA, HW_IDENTIFY_Pin | THERM_1_Pin | THERM_2_Pin | THERM_PINDA_Pin);
+        HAL_GPIO_DeInit(GPIOA, HW_IDENTIFY_Pin | THERM_1_Pin | THERM_2_Pin | THERM_PROBE_Pin);
 
         /* USER CODE BEGIN ADC1_MspDeInit 1 */
 

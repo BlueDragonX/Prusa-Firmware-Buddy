@@ -3,7 +3,7 @@
 	url = ../../prusa3d/TMCStepper.git
 [submodule "Marlin"]
 	path = lib/Marlin
-	url = ../../prusa3d/Marlin.git
+	url = https://github.com/BlueDragonX/Marlin.git
 [submodule "inih"]
 	path = lib/inih
 	url = ../../benhoyt/inih.git

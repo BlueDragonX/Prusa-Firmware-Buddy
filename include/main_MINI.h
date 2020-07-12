@@ -105,8 +105,8 @@ void Error_Handler(void);
 #define THERM_1_GPIO_Port     GPIOA
 #define THERM_2_Pin           GPIO_PIN_5
 #define THERM_2_GPIO_Port     GPIOA
-#define THERM_PINDA_Pin       GPIO_PIN_6
-#define THERM_PINDA_GPIO_Port GPIOA
+#define THERM_PROBE_Pin       GPIO_PIN_6
+#define THERM_PROBE_GPIO_Port GPIOA
 #define BED_HEAT_Pin          GPIO_PIN_0
 #define BED_HEAT_GPIO_Port    GPIOB
 #define HEAT0_Pin             GPIO_PIN_1

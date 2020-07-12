@@ -18,6 +18,7 @@ add_library(
   Marlin/Marlin/src/feature/binary_protocol.cpp
   Marlin/Marlin/src/feature/host_actions.cpp
   Marlin/Marlin/src/feature/joystick.cpp
+  Marlin/Marlin/src/feature/probe_temp_compensation.cpp
   Marlin/Marlin/src/feature/runout.cpp
   Marlin/Marlin/src/feature/safety_timer.cpp
   Marlin/Marlin/src/feature/spindle_laser.cpp
@@ -32,6 +33,7 @@ add_library(
   Marlin/Marlin/src/gcode/bedlevel/ubl/G29.cpp
   Marlin/Marlin/src/gcode/bedlevel/ubl/M421.cpp
   Marlin/Marlin/src/gcode/calibrate/G28.cpp
+  Marlin/Marlin/src/gcode/calibrate/G76_M871.cpp
   Marlin/Marlin/src/gcode/config/M200-M205.cpp
   Marlin/Marlin/src/gcode/config/M220.cpp
   Marlin/Marlin/src/gcode/config/M221.cpp

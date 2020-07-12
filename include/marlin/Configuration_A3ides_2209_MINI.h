@@ -351,7 +351,16 @@
 #define TEMP_SENSOR_BED 1
 #define TEMP_SENSOR_BOARD 2000
 #define TEMP_SENSOR_CHAMBER 0
+#define TEMP_SENSOR_PROBE 1
 #define HEATER_CHAMBER_PIN -1 // On/off pin for enclosure heating system
+
+#define PROBE_TEMP_COMPENSATION 1
+#define PTC_MAX_BED_TEMP 110
+#define PTC_PARK_POS_X 0.0F
+#define PTC_PARK_POS_Y 0.0F
+#define PTC_PARK_POS_Z 100.0F
+#define PTC_PROBE_POS_X 90.0F
+#define PTC_PROBE_POS_Y 90.0F
 
 // Dummy thermistor constant temperature readings, for use with 998 and 999
 #define DUMMY_THERMISTOR_998_VALUE 25
